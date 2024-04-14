@@ -1,4 +1,4 @@
-kiimport time
+import time
 import math
 import os
 from pyrogram.errors import FloodWait
