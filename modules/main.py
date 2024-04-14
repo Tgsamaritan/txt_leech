@@ -29,9 +29,9 @@ bot = Client(
     bot_token=bot_token)
 
 
-@bot.on_message(filters.command(["start"]))
+@bot.on_message(filters.command(["Start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("**ℍɪɪ** ┈━═My Freind═━┈😎\n\n I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me /upload Command And Then Follow Few Steps..")
+    editable = await m.reply_text("**ℍɪɪ** ┈━═My Freind═━┈😎\n\n I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me /Samaritan Command And Then Follow Few Steps..")
 
 
 @bot.on_message(filters.command("stop"))
